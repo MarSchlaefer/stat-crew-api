@@ -9,7 +9,9 @@
 all_sports = ["basketball", "baseball", "soccer", "football", "lacrosse", "ice hockey", "softball", "volleyball", "field hockey"]
 
 puts "Starting sports"
+
 all_sports.each do |sport|
     Sport.create( "name" => sport)
 end
+
 puts "Finished sports"
