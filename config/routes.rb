@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       get '/profile', to: 'users#profile'
       resources :sports
       resources :games
+      resources :user_sports
     end
   end
   
